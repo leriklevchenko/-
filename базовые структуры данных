@@ -1,0 +1,21 @@
+# 1st program
+result = 9 ** 0.5 * 5
+print(result) 
+
+# 2nd program
+comparison_result = 9.99 > 9.98 and 1000 != 1000.1
+print(comparison_result)
+
+# 3rd program
+number1 = 1234
+number2 = 5678
+middle_sum = (number1 % 100 // 10) + (number2 % 100 // 10)
+print(middle_sum)
+
+# 4th program
+number3 = 13.42
+number4 = 42.13
+integer_part_equal = int(number3) == round(number4 % 1 * 100)
+fractional_part_equal = int(number4) == round(number3 % 1 * 100)
+result = integer_part_equal or fractional_part_equal
+print(result)
